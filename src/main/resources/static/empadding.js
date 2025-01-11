@@ -11,7 +11,7 @@ function postemp(){
 		"experience": exp,
 		"location": loc	
 	};
-	fetch('http://dpg-cu19d6tsvqrc73epod5g-a.singapore-postgres.render.com:5432/employee/'+id,{
+	fetch('http://employeeprojects.onrender.com/employee/'+id,{
 		method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'  // Indicating that we are sending JSON
