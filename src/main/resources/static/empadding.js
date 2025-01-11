@@ -11,7 +11,7 @@ function postemp(){
 		"experience": exp,
 		"location": loc	
 	};
-	fetch('http://employeeprojects.onrender.com/employee/'+id,{
+	fetch('https://employeeprojects.onrender.com/employee/'+id,{
 		method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'  // Indicating that we are sending JSON
